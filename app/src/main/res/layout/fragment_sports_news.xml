@@ -53,6 +53,9 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:text="@string/title_placeholder" />
 
+        <!--Memberikan background pada News dimana background tersebut merupakan file xml yang disimpan pada drawable,
+        mengatur tinggi dan lebar layout (layout width dan layout height),
+        mengatur padding menjadi 20 dp(density-independent pixels)-->
         <TextView
             android:id="@+id/newsTitleDetail"
             style="@style/SportsDetailText"
@@ -65,7 +68,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/titleDetail"
             tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
-
+         <!--Memberikan warna background dengan warna biru yang light berdasar material palette
+         ini merupakan secondary warna pada aplikasi sport ini-->
         <TextView
             android:id="@+id/newsDetail"
             style="@style/SportsBody"
